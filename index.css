@@ -1,0 +1,107 @@
+/* =============================
+/* =============================
+Cards and Lists
+============================= */
+
+
+.card {
+background-color: var(--color-surface);
+padding: var(--spacing-md);
+border-radius: 6px;
+}
+
+
+.value-list {
+max-width: 720px;
+}
+
+
+.reading-list {
+list-style: none;
+padding-left: 0;
+}
+
+
+.reading-list li {
+margin-bottom: 0.75rem;
+}
+
+
+/* =============================
+CTA Section
+============================= */
+
+
+.section-cta {
+background-color: var(--color-surface);
+text-align: center;
+}
+
+
+.section-cta h2 {
+margin-bottom: var(--spacing-sm);
+}
+
+
+.section-cta p {
+max-width: 720px;
+margin: 0 auto var(--spacing-md);
+}
+
+
+/* =============================
+Footer
+============================= */
+
+
+.footer {
+background-color: #111111;
+color: #ffffff;
+padding: var(--spacing-md) 0;
+}
+
+
+.footer-nav {
+margin-bottom: var(--spacing-sm);
+}
+
+
+.footer-nav a {
+color: #ffffff;
+margin-right: var(--spacing-sm);
+font-size: 0.9rem;
+}
+
+
+.footer-note {
+font-size: 0.85rem;
+max-width: 720px;
+}
+
+
+.footer-copy {
+font-size: 0.8rem;
+opacity: 0.8;
+}
+
+
+/* =============================
+Responsive Adjustments
+============================= */
+
+
+@media (max-width: 768px) {
+h1 {
+font-size: 2.25rem;
+}
+
+
+h2 {
+font-size: 1.75rem;
+}
+
+
+.hero {
+padding: var(--spacing-lg) 0;
+}
+}
