@@ -10,8 +10,8 @@ const surveyEnd = new Date('2026-01-31T23:59:59');
 
 
 // Update these URLs as needed
-const surveyUrl = 'https://example.com/survey';
-const postSurveyUrl = 'https://example.com/survey-results';
+const surveyUrl = 'https://forms.gle/gte6UCfsaCjFXtTG7';
+const postSurveyUrl = '';
 
 
 const primaryCta = document.getElementById('survey-cta');
